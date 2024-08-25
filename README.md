@@ -1,14 +1,9 @@
 # docker-2048
 
-simple is better
 
-a smaller docker version of 2048
+Version web du jeu 2048
+based on alexwhen/docker-2048 and on gabrielecirulli/2048(https://github.com/gabrielecirulli/2048)
 
-Base on gabrielecirulli/2048(https://github.com/gabrielecirulli/2048)
-
-Base on alpine
-
-Base on nginx
 
 #dockerfile
 
@@ -37,7 +32,3 @@ Base on nginx
 # Access the game
 
     http://127.0.0.1:8080
-
-If you run docker with boot2docker on Mac or Windows, the URL should be:
- 
-    http://192.168.59.103:8080
